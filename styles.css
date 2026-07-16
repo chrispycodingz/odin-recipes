@@ -1,0 +1,58 @@
+.page {
+    background-color: #fffd94;
+}
+
+.title, #ingredient-card {
+    text-align: center;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    color: rgb(97, 46, 46);
+    margin-bottom: 10px;
+}
+
+
+.ingredients-container {
+    color: rgb(97, 46, 46);
+    background-color: orange;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 40px;
+    border-color: rgb(97, 46, 46);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    display: inline-block;
+    color: rgb(97, 46, 46);
+    margin-right: 10px;
+}
+
+.links a:hover {
+    color: brown;
+}
+
+.imgbox {
+    display: grid;
+    height: 100%
+}
+.center-fit, .center-fit-foodpage {
+    max-width: 100%;
+    max-height: 75vh;
+    margin: auto;
+}
+
+.center-fit-foodpage {
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.blurb {
+    text-align: center;
+    color: rgb(97, 46, 46);
+    margin-bottom: 15px;
+}
